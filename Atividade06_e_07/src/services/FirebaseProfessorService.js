@@ -1,6 +1,6 @@
 import { collection, documentId, doc, addDoc, deleteDoc, updateDoc, getDoc, getDocs, onSnapshot, query } from "firebase/firestore";
 
-export default class FirebaseStudentService {
+export default class FirebaseProfessorService {
 
     static list = (firestore, callback) => {
         const coll = collection(firestore, 'professors')
